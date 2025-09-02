@@ -21,7 +21,8 @@ import scipy.stats as ss
 from matplotlib.patches import Polygon
 from matplotlib.collections import PatchCollection
 from matplotlib.colors import ListedColormap
-from matplotlib.cm import ScalarMappable, get_cmap
+from matplotlib.cm import ScalarMappable
+from matplotlib import pyplot as plt
 from matplotlib.colorbar import make_axes
 from matplotlib.colors import Normalize, LinearSegmentedColormap
 import warnings
